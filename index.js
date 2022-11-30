@@ -7,7 +7,7 @@ import Toggle from './src/components/Toggle'
 
 const hitSlop = { top: 14, bottom: 14, left: 14, right: 14 }
 
-const kOptionsHeight = { width: '100%', maxHeight: 180 }
+const kOptionsHeight = { backgroundColor: "#fff", width: '100%', maxHeight: 180 }
 
 const kOptionListViewStyle = {
   width: '100%',
@@ -236,6 +236,7 @@ function SelectBox({
             windowSize={10}
             ListEmptyComponent={optionListEmpty}
             style={[kOptionsHeight, listOptionProps.style]}
+            contentContainerStyle={{ backgroundColor: "#fff" }}
             ListHeaderComponent={HeaderComponent()}
             {...listOptionProps}
           />
