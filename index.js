@@ -197,7 +197,7 @@ function SelectBox({
   }
 
   return (
-    <View style={{ width, position: "relative" }}>
+    <View style={{ width, position: "relative", zIndex: 99 }}>
       <Text style={kLabelStyle}>{label}</Text>
       <View style={kContainerStyle}>
         <View style={{ paddingRight: 20, flexGrow: 1 }}>
@@ -223,7 +223,7 @@ function SelectBox({
       </View>
       {/* Options wrapper */}
       {showOptions && (
-        <View style={{ backgroundColor: "#fff", position: "absolute", top: 80, width, zIndex: 999 }}>
+        <View style={{ backgroundColor: "#fff", position: "absolute", top: 80, width, zIndex: 100 }}>
           <FlatList
             data={filteredSuggestions || options}
             extraData={options}
