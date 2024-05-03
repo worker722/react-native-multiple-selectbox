@@ -5,7 +5,7 @@
 
 Platform independent (Android / iOS) Selectbox | Picker | Multi-select | Multi-picker. The idea is to bring out the common user-interface & user-experience on both platforms.
 
-![demo](https://raw.githubusercontent.com/upmanager/react-native-multiple-selectbox/master/demo.gif)
+![demo](https://raw.githubusercontent.com/worker722/react-native-multiple-selectbox/master/demo.gif)
 
 ## Getting started
 
@@ -163,7 +163,7 @@ Check-in `develop` branch and submit a new pull-request
 
 ## Issues or feature request? ✍🏼
 
-You can submit a request on https://github.com/upmanager/react-native-multiple-selectbox/issues
+You can submit a request on https://github.com/worker722/react-native-multiple-selectbox/issues
 
 ## Support & Share 💆🏼‍♂️
 
