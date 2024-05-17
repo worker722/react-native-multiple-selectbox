@@ -159,7 +159,7 @@ multiSelectInputFieldProps         | object |                                   
 
 ## Want to be a contributor? 👷🏼‍♂️👷🏼‍♀️
 
-Check-in `develop` branch and submit a new pull-request
+Check-in `main` branch and submit a new pull-request
 
 ## Issues or feature request? ✍🏼
 
